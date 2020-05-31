@@ -1,5 +1,6 @@
 # basic-react-form
-
+React contact for which contain fields for Name, Email and
+message with Validation. 
 [Watch the YouTube video to learn how it was made.](https://youtu.be/_Dq8QnQtx5Y)
 
 App Dependencies:
