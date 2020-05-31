@@ -1,0 +1,32 @@
+{
+  "name": "react-form",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "1.0.10"
+  },
+  "dependencies": {
+    "-": "0.0.1",
+    "@aws-amplify/cli": "^4.21.0",
+    "@material-ui/core": "^4.10.0",
+    "aws-amplify": "^3.0.13",
+    "aws-amplify-react": "^4.1.12",
+    "eslint-plugin-flowtype": "^2.35.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.1.0",
+    "g": "^2.0.1",
+    "jquery": "^3.5.1",
+    "material-ui": "^0.18.6",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-tap-event-plugin": "^2.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "aws s3 sync build/ s3://mkd-lgnform-app --acl public-read",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
